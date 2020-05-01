@@ -8,6 +8,7 @@ The proposed method consists two versions: UKOF and LUKOF method.
  Main Class for LUKOF method: cellpruning.lof.pruning.ComputeTopNKDE_LazyUpdate
  
 (2)Build and Use the Software Artifact
+
 1.Open Eclipse
 
 2.Import the code named "TopNKOF"
