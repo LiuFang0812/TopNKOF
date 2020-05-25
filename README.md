@@ -2,18 +2,19 @@ Experimental Code for KBS: Scalable KDE-based Top-n Local Outlier Detection over
 ==
 Overview
 --
-The detection of local outliers over high-volume data streams is critical for diverse real-time applications in the real world, where the distributions in different subsets of the data tend to be skewed.  
-However, existing methods are not scalable to large-scale high-volume data streams owing to the high complexity of the re-detection of data updates. 
-In this work, we propose a top-$n$ local outlier detection method based on Kernel Density Estimation (KDE) over large-scale high-volume data streams. 
+The detection of local outliers over high-volume data streams is critical for diverse real-time applications in the real world, where the distributions in different subsets of the data tend to be skewed. However, existing methods are not scalable to large-scale high-volume data streams owing to the high complexity of the re-detection of data updates. In this work, we propose a top-$n$ local outlier detection method based on Kernel Density Estimation (KDE) over large-scale high-volume data streams. 
 
 
-
-(1)Main Methods
+Main Methods
+--
 The proposed method consists two versions: UKOF and LUKOF method. 
 
  Main Class for UKOF method: cellpruning.lof.pruning.ComputeTopNKDE
 
  Main Class for LUKOF method: cellpruning.lof.pruning.ComputeTopNKDE_LazyUpdate
+ Environment
+ --
+* Eclipse
  
 (2)Build and Use the Software Artifact
 
