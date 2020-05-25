@@ -12,6 +12,7 @@ The proposed method consists two versions: UKOF and LUKOF method.
  Main Class for UKOF method: cellpruning.lof.pruning.ComputeTopNKDE
 
  Main Class for LUKOF method: cellpruning.lof.pruning.ComputeTopNKDE_LazyUpdate
+ 
  Environment
  --
 * Eclipse
