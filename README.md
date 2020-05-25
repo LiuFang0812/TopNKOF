@@ -32,6 +32,6 @@ Dataset
 --
  extensive experiments are conducted on ten real-world and synthetic datasets. The real-world datasets are extracted from  UCI Machine Learning Repository.
  
- synthetic dataset: Interchanging RBF,Moving Squares,Mixture RBF
+ synthetic dataset: Interchanging RBF, Moving Squares, Mixture RBF
  
- real-word datasets: Vowels,KDDCup,Subhttp,Smtp,ForestCover,Mobike,GeoLife
+ real-word datasets: Vowels, KDDCup, Subhttp, Smtp, ForestCover, Mobike, GeoLife
