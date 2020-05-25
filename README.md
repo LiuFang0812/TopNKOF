@@ -2,7 +2,7 @@ Experimental Code for KBS: Scalable KDE-based Top-n Local Outlier Detection over
 ==
 Overview
 --
-The detection of local outliers over high-volume data streams is critical for diverse real-time applications in the real world, where the distributions in different subsets of the data tend to be skewed. However, existing methods are not scalable to large-scale high-volume data streams owing to the high complexity of the re-detection of data updates. In this work, we propose a top-$n$ local outlier detection method based on Kernel Density Estimation (KDE) over large-scale high-volume data streams. 
+The detection of local outliers over high-volume data streams is critical for diverse real-time applications in the real world, where the distributions in different subsets of the data tend to be skewed. However, existing methods are not scalable to large-scale high-volume data streams owing to the high complexity of the re-detection of data updates. In this work, we propose a top-n local outlier detection method based on Kernel Density Estimation (KDE) over large-scale high-volume data streams. 
 
 
 Main Methods
@@ -32,6 +32,6 @@ Dataset
 --
  extensive experiments are conducted on ten real-world and synthetic datasets. The real-world datasets are extracted from  UCI Machine Learning Repository.
  
- synthetic dataset:Interchanging RBF,Moving Squares,Mixture RBF
+ synthetic dataset: Interchanging RBF,Moving Squares,Mixture RBF
  
  real-word datasets: Vowels,KDDCup,Subhttp,Smtp,ForestCover,Mobike,GeoLife
