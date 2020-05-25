@@ -19,14 +19,14 @@ The proposed method consists two versions: UKOF and LUKOF method.
  
 * Build and Use the Software Artifact
 
->>>1.Open Eclipse
+>1.Open Eclipse
 
->>>2.Import the code named "TopNKOF"
+>2.Import the code named "TopNKOF"
 
->>>3.Set parameters in "util.SQConfig", such as the number of nearest neighbors k, top outliers n,
+>3.Set parameters in "util.SQConfig", such as the number of nearest neighbors k, top outliers n,
 window size w and slide size s.
 
->>>4.Run the corresponding main methods for UKOF and LUKOF, namely "cellpruning.lof.pruning.ComputeTopNKDE" and "cellpruning.lof.pruning.ComputeTopNKDE_LazyUpdate"
+>4.Run the corresponding main methods for UKOF and LUKOF, namely "cellpruning.lof.pruning.ComputeTopNKDE" and "cellpruning.lof.pruning.ComputeTopNKDE_LazyUpdate"
 
 Dataset
 --
